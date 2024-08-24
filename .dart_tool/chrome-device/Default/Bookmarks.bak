@@ -1,0 +1,90 @@
+{
+   "checksum": "125152cfb9a23dabd6bb16aaf6d3d487",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13367601718347166",
+            "date_last_used": "0",
+            "guid": "1cda1deb-06cf-4095-9c38-9dedcf30cb1c",
+            "id": "18",
+            "name": "https://app.codesignal.com/public-test/zEJyC7gnL9JAsWtGp/FpXNgWMcBvkiyJ",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://app.codesignal.com/public-test/zEJyC7gnL9JAsWtGp/FpXNgWMcBvkiyJ"
+         }, {
+            "date_added": "13368885613905423",
+            "date_last_used": "0",
+            "guid": "5ee2f03a-cf7a-482d-aeae-7cd7b5eb318b",
+            "id": "10",
+            "name": "Booking.com",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.booking.com/index.html?aid=1980379&label=NW21C2EF"
+         }, {
+            "date_added": "13368885613905164",
+            "date_last_used": "0",
+            "guid": "4839a35c-f863-4acd-a463-e4a6a0dc4412",
+            "id": "9",
+            "name": "Express VPN",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "http://js.redirect.hp.com/jumpstation?bd=expressvpn&c=*&locale=en_us&pf=*&s=*&tp=edge"
+         }, {
+            "date_added": "13368885613904853",
+            "date_last_used": "0",
+            "guid": "7d0cefdb-549e-4311-8096-7a229fbd8d04",
+            "id": "8",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "http://www.mcafee.com/consumer/v/browserfav/hp.html"
+         }, {
+            "date_added": "13368885613904201",
+            "date_last_used": "0",
+            "guid": "f981c049-02a8-4bcf-9548-52d8b1b9dee4",
+            "id": "7",
+            "name": "LastPass password manager",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=lastpass&c=*&locale=*&pf=*&s=*&tp=edge"
+         } ],
+         "date_added": "13368885613497769",
+         "date_last_used": "0",
+         "date_modified": "13368886480680499",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13368885613497773",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13368885613497780",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCDi1BH+RAQAAEgAqGGxjTFhTYk9OS0gwM2FuRnpJcFo0L1E9PUgDoAYMEqcBCBISogEKHGdRa3R0ZG5XaGMyOVlyT3VUSS9HRGpjUDlIRT0SJDFjZGExZGViLTA2Y2YtNDA5NS05YzM4LTlkZWRjZjMwY2IxYxgAIAIoAjCz6pL4lzI4ya7Gk5MyQOyZkviXMkocdnN1WVY2aFoxNUpXc08yTW1tSHFzVjdzeXc4PVoeIhxrYnc0eXFVK3FLZUpBQzNBREZySGJ3RG5yQU09ZeyN/gASiQEIARKEAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkZDVmN2I2ZjYtMmRhOS01NDAwLWFhZGQtNDJiYWFmODBmYjE3GAAgACgAMPzx/Mq3MDjw8vzKtzBA8PL8yrcwShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAABKJAQgCEoQBChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EiRmZjM3OWRlNS1jYThkLTVlODktYTdiOC00MTcwNmYzMzU1M2IYACAAKAAw/PH8yrcwOJ/z/Mq3MECf8/zKtzBKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAEokBCAMShAEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJDUwZDA3NTU0LWMzZDQtNTQyOS05ZDM5LTBjOGUxMzY0MGU2NhgAIAAoADD88fzKtzA4jPT8yrcwQIz0/Mq3MEoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAAwADgA",
+   "version": 1
+}

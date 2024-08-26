@@ -81,3 +81,15 @@
 2024-08-23T11:45:59.495Z P:13760 T:18112] Commit::PostAndProcessResponse,Sessions: Success
 2024-08-23T11:59:30.044Z P:13760 T:18112] Commit::PostAndProcessResponse,Sessions: Success
 2024-08-23T12:02:34.625Z P:13760 T:3000] SyncServiceImpl::ResetEngine,Reason: 0
+2024-08-26T10:00:58.715Z P:2340 T:18732] SyncServiceImpl::Initialize,SyncState after authenticated was: FeatureNotRequestedNotSetup
+2024-08-26T10:01:08.830Z P:2340 T:18732] SyncServiceImpl::TryStartImpl,Try to start sync engine
+2024-08-26T10:01:08.831Z P:2340 T:18764] SyncManagerImpl::ConfigureSyncer,Types to download: Encryption Keys
+2024-08-26T10:01:09.622Z P:2340 T:18732] SyncAuthManager::SetLastAuthError,Current auth error: None
+2024-08-26T10:01:09.622Z P:2340 T:18732] SyncAuthManager::EdgeLogTokenErrorState,Token error with: None for account type: MSA
+2024-08-26T10:01:09.622Z P:2340 T:18732] SyncServiceImpl::CredentialsChanged,Credentials changed for: EdgeSyncScopeNew
+2024-08-26T11:09:07.463Z P:4260 T:12764] SyncServiceImpl::Initialize,SyncState after authenticated was: FeatureNotRequestedNotSetup
+2024-08-26T11:09:17.596Z P:4260 T:12764] SyncServiceImpl::TryStartImpl,Try to start sync engine
+2024-08-26T11:09:17.598Z P:4260 T:23492] SyncManagerImpl::ConfigureSyncer,Types to download: Encryption Keys
+2024-08-26T11:09:17.645Z P:4260 T:12764] SyncAuthManager::SetLastAuthError,Current auth error: None
+2024-08-26T11:09:17.645Z P:4260 T:12764] SyncAuthManager::EdgeLogTokenErrorState,Token error with: None for account type: MSA
+2024-08-26T11:09:17.645Z P:4260 T:12764] SyncServiceImpl::CredentialsChanged,Credentials changed for: EdgeSyncScopeNew

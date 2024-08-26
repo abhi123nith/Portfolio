@@ -1,7 +1,6 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:portfolio/globals/app_assets.dart';
-import 'package:portfolio/globals/app_buttons.dart';
 import 'package:portfolio/globals/app_colors.dart';
 import 'package:portfolio/globals/app_text_styles.dart';
 import 'package:portfolio/globals/constants.dart';
@@ -14,10 +13,10 @@ class AboutMe extends StatelessWidget {
       "Hello! My name is Abhishek Godara, and I am a passionate software engineer and problem solver dedicated to creating impactful code that thrives on the internet. My journey in Computer Science began in 2022 when I embarked on my engineering studies at NIT Hamirpur.";
   final String text2 =
       "With a solid foundation in software development and a keen interest in innovative solutions, I have consistently demonstrated my ability to engineer efficient and impactful projects. My expertise spans a variety of programming languages and modern technologies, equipping me to tackle complex challenges and deliver high-quality results.";
+
   @override
   Widget build(BuildContext context) {
     final Size size = MediaQuery.of(context).size;
-    // String text1, text2;
 
     return HelperClass(
       mobile: Column(
@@ -55,8 +54,9 @@ class AboutMe extends StatelessWidget {
         borderRadius: BorderRadius.circular(30),
         child: Image.asset(
           AppAssets.profile2,
-          height: 400,
-          width: 400,
+          height: 300,
+          width: 300,
+          fit: BoxFit.cover,
         ),
       ),
     );
@@ -99,12 +99,6 @@ class AboutMe extends StatelessWidget {
             style: AppTextStyles.normalStyle(),
           ),
         ),
-        Constants.sizedBox(height: 15.0),
-        FadeInUp(
-          duration: const Duration(milliseconds: 1800),
-          child: AppButtons.buildMaterialButton(
-              onTap: () {}, buttonName: 'Read More'),
-        )
       ],
     );
   }

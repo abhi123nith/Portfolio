@@ -1,57 +1,183 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:portfolio/globals/app_assets.dart';
+import 'package:portfolio/globals/app_buttons.dart';
 import 'package:portfolio/globals/app_colors.dart';
 import 'package:portfolio/globals/app_text_styles.dart';
 import 'package:portfolio/globals/constants.dart';
 import 'package:portfolio/helper%20class/helper_class.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class MyPortfolio extends StatefulWidget {
+class MyPortfolio extends StatelessWidget {
   const MyPortfolio({super.key});
-
-  @override
-  State<MyPortfolio> createState() => _MyPortfolioState();
-}
-
-class _MyPortfolioState extends State<MyPortfolio> {
-  final onH0verEffect = Matrix4.identity()..scale(1.0);
-
-  List images = <String>[
-    AppAssets.work1,
-    AppAssets.work2,
-    AppAssets.work1,
-  ];
-
-  // ignore: prefer_typing_uninitialized_variables
-  var hoveredIndex;
 
   @override
   Widget build(BuildContext context) {
     final Size size = MediaQuery.of(context).size;
+    String appTitle1 = "SAMPARK APP";
+    String image1 = AppAssets.project1;
+    String projectdescription1 =
+        "Sampark App is a robust communication platform developed with Dart and Flutter, featuring real-time messaging (text, image, video, audio), one-to-one and group calls, and live streaming. Utilizing GetX for state management and Firebase for backend services, the app offers secure email authentication and versatile group management (creation, editing, deletion). The app’s scalable backend and real-time communication capabilities provide a reliable and engaging way for users to connect and interact.";
+
+    String appTitle2 = "My Portfolio";
+    String image2 = AppAssets.project2;
+    String projectdescription2 =
+        "My portfolio is a visually engaging and fully responsive web application built using Flutter. It leverages advanced animations to create smooth transitions and an interactive user experience. Designed to perform seamlessly across devices—whether mobile, tablet, or desktop—the portfolio highlights Abhishek's technical skills, projects, and expertise in Flutter. The use of animations brings a dynamic feel to the interface, showcasing his commitment to both design and functionality.";
+
+    String appTitle3 = "Calculator ";
+    String image3 = AppAssets.project3;
+    String projectdescription3 =
+        "A calculator with basic functions was built using Flutter, showcasing a clean user interface and smooth functionality. The app efficiently handles essential operations like addition, subtraction, multiplication, remainder and division. This project highlights the ability to create simple yet effective applications with Flutter’s framework, emphasizing ease of use and responsiveness.";
+
+    String liveLink1 = "";
+    String githubLink1 = "";
+
+    String liveLink2 = "";
+    String githubLink2 = "";
+
+    String liveLink3 = "";
+    String githubLink3 = "";
+
     return HelperClass(
       mobile: Column(
-        mainAxisSize: MainAxisSize.min,
         children: [
-          buildProjectText(),
-          Constants.sizedBox(height: 40.0),
-          buildProjectGridView(crossAxisCount: 1)
+          FadeInRight(
+            duration: const Duration(milliseconds: 1200),
+            child: RichText(
+              text: TextSpan(
+                text: 'My ',
+                style: AppTextStyles.headingStyles(fontSize: 30.0),
+                children: [
+                  TextSpan(
+                    text: 'Projects',
+                    style: AppTextStyles.headingStyles(
+                        fontSize: 30, color: AppColors.robinEdgeBlue),
+                  )
+                ],
+              ),
+            ),
+          ),
+          Column(
+            children: [
+              buildAboutMeContents(
+                  appTitle1, projectdescription1, githubLink1, liveLink1),
+              Constants.sizedBox(height: 35.0),
+              buildProfilePicture(image1),
+            ],
+          ),
+          const SizedBox(height: 20),
+          Column(
+            children: [
+              buildAboutMeContents(
+                  appTitle2, projectdescription2, githubLink2, liveLink2),
+              Constants.sizedBox(height: 35.0),
+              buildProfilePicture(image2),
+            ],
+          ),
+          const SizedBox(height: 20),
+          Column(
+            children: [
+              buildAboutMeContents(
+                  appTitle3, projectdescription3, githubLink3, liveLink3),
+              Constants.sizedBox(height: 35.0),
+              buildProfilePicture(image3),
+            ],
+          ),
         ],
       ),
       tablet: Column(
-        mainAxisSize: MainAxisSize.min,
         children: [
-          buildProjectText(),
-          Constants.sizedBox(height: 40.0),
-          buildProjectGridView(crossAxisCount: 1)
+          FadeInRight(
+            duration: const Duration(milliseconds: 1200),
+            child: RichText(
+              text: TextSpan(
+                text: 'My ',
+                style: AppTextStyles.headingStyles(fontSize: 30.0),
+                children: [
+                  TextSpan(
+                    text: 'Projects',
+                    style: AppTextStyles.headingStyles(
+                        fontSize: 30, color: AppColors.robinEdgeBlue),
+                  )
+                ],
+              ),
+            ),
+          ),
+          Row(
+            children: [
+              buildProfilePicture(image1),
+              Constants.sizedBox(width: 25.0),
+              buildAboutMeContents(
+                  appTitle1, projectdescription1, githubLink1, liveLink1)
+            ],
+          ),
+          const SizedBox(height: 20),
+          Row(
+            children: [
+              buildProfilePicture(image2),
+              Constants.sizedBox(width: 25.0),
+              buildAboutMeContents(
+                  appTitle2, projectdescription2, githubLink2, liveLink2)
+            ],
+          ),
+          const SizedBox(height: 20),
+          Row(
+            children: [
+              buildProfilePicture(image3),
+              Constants.sizedBox(width: 25.0),
+              buildAboutMeContents(
+                  appTitle3, projectdescription3, githubLink3, liveLink3)
+            ],
+          ),
         ],
       ),
       desktop: Column(
-        mainAxisSize: MainAxisSize.min,
         children: [
-          buildProjectText(),
-          Constants.sizedBox(height: 40.0),
-          buildProjectGridView(crossAxisCount: 3),
+          FadeInRight(
+            duration: const Duration(milliseconds: 1200),
+            child: RichText(
+              text: TextSpan(
+                text: 'My ',
+                style: AppTextStyles.headingStyles(fontSize: 30.0),
+                children: [
+                  TextSpan(
+                    text: 'Projects',
+                    style: AppTextStyles.headingStyles(
+                        fontSize: 30, color: AppColors.robinEdgeBlue),
+                  )
+                ],
+              ),
+            ),
+          ),
+          Row(
+            children: [
+              buildProfilePicture(image1),
+              Constants.sizedBox(width: 25.0),
+              Expanded(
+                  child: buildAboutMeContents(
+                      appTitle1, projectdescription1, githubLink1, liveLink1)),
+            ],
+          ),
+          const SizedBox(height: 30),
+          Row(
+            children: [
+              buildProfilePicture(image2),
+              Constants.sizedBox(width: 25.0),
+              Expanded(
+                  child: buildAboutMeContents(
+                      appTitle2, projectdescription2, githubLink2, liveLink2)),
+            ],
+          ),
+          const SizedBox(height: 30),
+          Row(
+            children: [
+              buildProfilePicture(image3),
+              Constants.sizedBox(width: 25.0),
+              Expanded(
+                  child: buildAboutMeContents(
+                      appTitle3, projectdescription3, githubLink3, liveLink3)),
+            ],
+          ),
         ],
       ),
       paddingWidth: size.width * 0.1,
@@ -59,124 +185,87 @@ class _MyPortfolioState extends State<MyPortfolio> {
     );
   }
 
-  GridView buildProjectGridView({required int crossAxisCount}) {
-    return GridView.builder(
-      itemCount: images.length,
-      shrinkWrap: true,
-      physics: const NeverScrollableScrollPhysics(),
-      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: crossAxisCount,
-        mainAxisExtent: 280,
-        mainAxisSpacing: 24,
-        crossAxisSpacing: 24,
+  FadeInRight buildProfilePicture(String image) {
+    return FadeInRight(
+      duration: const Duration(milliseconds: 1200),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(30),
+        child: Image.asset(
+          image,
+          height: 150,
+          width: 150,
+          fit: BoxFit.cover,
+        ),
       ),
-      itemBuilder: (context, index) {
-        var image = images[index];
-        return FadeInUpBig(
-          duration: const Duration(milliseconds: 1600),
-          child: InkWell(
-            onTap: () async {
-              final Uri uri =
-                  Uri.parse("https://github.com/abhi123nith?tab=repositories");
-              if (await canLaunchUrl(uri)) {
-                launchUrl(uri, mode: LaunchMode.externalApplication);
-                //  print('Tapppeddddd');
-              } else {
-                throw 'Could not launch $uri';
-              }
-            },
-            onHover: (value) {
-              setState(() {
-                if (value) {
-                  hoveredIndex = index;
-                } else {
-                  hoveredIndex = null;
-                }
-              });
-            },
-            child: Stack(
-              alignment: Alignment.center,
-              children: [
-                Container(
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(20),
-                    image: DecorationImage(
-                        image: AssetImage(image), fit: BoxFit.fill),
-                  ),
-                ),
-                Visibility(
-                  visible: index == hoveredIndex,
-                  child: AnimatedContainer(
-                    duration: const Duration(milliseconds: 600),
-                    transform: index == hoveredIndex ? onH0verEffect : null,
-                    curve: Curves.easeIn,
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 14, vertical: 16),
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
-                      gradient: LinearGradient(
-                          colors: [
-                            AppColors.themeColor.withOpacity(1.0),
-                            AppColors.themeColor.withOpacity(0.9),
-                            AppColors.themeColor.withOpacity(0.8),
-                            AppColors.themeColor.withOpacity(0.6),
-                          ],
-                          begin: Alignment.bottomCenter,
-                          end: Alignment.topCenter),
-                    ),
-                    child: Column(
-                      children: [
-                        Text(
-                          'Flutter Development',
-                          style: AppTextStyles.montserratStyle(
-                              color: Colors.black87, fontSize: 20),
-                        ),
-                        Constants.sizedBox(height: 15.0),
-                        Text(
-                          "I built  Apps using Flutter, Smapark App , Responsive Portfolio website ,Calculator.",
-                          style:
-                              AppTextStyles.normalStyle(color: Colors.black87),
-                          textAlign: TextAlign.center,
-                        ),
-                        Constants.sizedBox(height: 30.0),
-                        CircleAvatar(
-                          maxRadius: 25,
-                          backgroundColor: Colors.white,
-                          child: Image.asset(
-                            AppAssets.share,
-                            width: 25,
-                            height: 25,
-                            fit: BoxFit.fill,
-                          ),
-                        )
-                      ],
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ),
-        );
-      },
     );
   }
 
-  FadeInDown buildProjectText() {
-    return FadeInDown(
-      duration: const Duration(milliseconds: 1200),
-      child: RichText(
-        text: TextSpan(
-          text: 'Latest ',
-          style: AppTextStyles.headingStyles(fontSize: 30.0),
+  Column buildAboutMeContents(String apptitle, String projectDescription,
+      String githubLink, String liveLink) {
+    return Column(
+      children: [
+        Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisSize: MainAxisSize.min,
           children: [
-            TextSpan(
-              text: 'Projects',
-              style: AppTextStyles.headingStyles(
-                  fontSize: 30, color: AppColors.robinEdgeBlue),
+            Constants.sizedBox(height: 6.0),
+            FadeInLeft(
+              duration: const Duration(milliseconds: 1400),
+              child: Text(
+                apptitle,
+                style: AppTextStyles.headingStyles(
+                    color: Colors.white, fontSize: 20),
+              ),
+            ),
+            Constants.sizedBox(height: 8.0),
+            FadeInLeft(
+              duration: const Duration(milliseconds: 1600),
+              child: Column(
+                children: [
+                  Text(
+                    projectDescription,
+                    style: AppTextStyles.normalStyle(),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(height: 20),
+            Row(
+              children: [
+                FadeInUp(
+                  duration: const Duration(milliseconds: 1800),
+                  child: AppButtons.buildMaterialButton(
+                      onTap: () async {
+                        final Uri uri = Uri.parse(liveLink);
+                        if (await canLaunchUrl(uri)) {
+                          launchUrl(uri, mode: LaunchMode.externalApplication);
+                          //  print('Tapppeddddd');
+                        } else {
+                          throw 'Could not launch $uri';
+                        }
+                      },
+                      buttonName: 'Live'),
+                ),
+                const SizedBox(width: 30),
+                FadeInUp(
+                  duration: const Duration(milliseconds: 1800),
+                  child: AppButtons.buildMaterialButton(
+                      onTap: () async {
+                        final Uri uri = Uri.parse(githubLink);
+                        if (await canLaunchUrl(uri)) {
+                          launchUrl(uri, mode: LaunchMode.externalApplication);
+                          //  print('Tapppeddddd');
+                        } else {
+                          throw 'Could not launch $uri';
+                        }
+                      },
+                      buttonName: 'Source Code'),
+                ),
+              ],
             )
           ],
         ),
-      ),
+      ],
     );
   }
 }

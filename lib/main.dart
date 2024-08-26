@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
     final PageStorageBucket bucket = PageStorageBucket();
     return MaterialApp(
       title: 'My Portfolio',
+      color: Colors.white,
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,

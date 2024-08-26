@@ -66,8 +66,9 @@ class MySkills extends StatelessWidget {
         borderRadius: BorderRadius.circular(30),
         child: Image.asset(
           AppAssets.skills,
-          height: 400,
-          width: 400,
+          height: 300,
+          width: 300,
+          fit: BoxFit.cover,
         ),
       ),
     );

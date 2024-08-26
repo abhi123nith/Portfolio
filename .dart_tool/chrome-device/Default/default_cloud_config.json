@@ -70,7 +70,7 @@
    }, {
       "appName": "reading_view",
       "data": {
-         "blockList": [ "gisdvl-jrvoice2.jreast.co.jp", "jrvoice2.jreast.co.jp", "www.marriott.com" ],
+         "blockList": [ "gisdvl-jrvoice2.jreast.co.jp", "jrvoice2.jreast.co.jp", "www.marriott.com", "www.eki-net.com" ],
          "textLengthThreshold": 40,
          "whiteList": [ "mip.shengxuxu.com" ]
       },
@@ -301,5 +301,5 @@
       "type": "normal",
       "version": "1003"
    } ],
-   "version": "202408210001"
+   "version": "202408230001"
 }

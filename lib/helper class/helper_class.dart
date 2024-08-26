@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-
 class HelperClass extends StatelessWidget {
   final Widget mobile;
   final Widget tablet;
   final Widget desktop;
   final double paddingWidth;
   final Color bgColor;
+  final EdgeInsets? padding;
   const HelperClass({
     super.key,
     required this.mobile,
@@ -14,6 +14,7 @@ class HelperClass extends StatelessWidget {
     required this.desktop,
     required this.paddingWidth,
     required this.bgColor,
+    this.padding,
   });
 
   @override

@@ -39,7 +39,7 @@ class _MainDashBoardState extends State<MainDashBoard> {
     const AboutMe(),
     MySkills(),
     const MyPortfolio(),
-     ContactUs(),
+    ContactUs(),
     const FooterClass(),
   ];
 
@@ -78,7 +78,10 @@ class _MainDashBoardState extends State<MainDashBoard> {
             return Row(
               crossAxisAlignment: CrossAxisAlignment.end,
               children: [
-                const Text('Portfolio'),
+                Text(
+                  'Portfolio',
+                  style: AppTextStyles.montserratStyle(color: Colors.white),
+                ),
                 const Spacer(),
                 if (isMobile) ...[
                   PopupMenuButton(

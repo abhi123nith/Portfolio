@@ -1,54 +1,158 @@
 {
-   "checksum": "156580eaad8413f852e24fddbbc1344b",
+   "checksum": "62af16cc760b625450e913f22aea3003",
    "roots": {
       "bookmark_bar": {
          "children": [ {
+            "date_added": "13369144147704716",
+            "date_last_used": "0",
+            "guid": "5ccd7320-1e27-44a2-a877-e081205812e1",
+            "id": "30",
+            "name": "Booking.com",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.booking.com/index.html?aid=1980379&label=NW21C2EF",
+            "visit_count": 0
+         }, {
+            "date_added": "13369144147704580",
+            "date_last_used": "0",
+            "guid": "72d56010-2a67-4fef-a3bf-5b7aa3e0378e",
+            "id": "29",
+            "name": "Express VPN",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "http://js.redirect.hp.com/jumpstation?bd=expressvpn&c=*&locale=en_us&pf=*&s=*&tp=edge",
+            "visit_count": 0
+         }, {
+            "date_added": "13369144147704393",
+            "date_last_used": "0",
+            "guid": "b8c68a5a-5231-4244-932a-58d750ae6ae9",
+            "id": "28",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "http://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
+         }, {
+            "date_added": "13369144147703810",
+            "date_last_used": "0",
+            "guid": "2e1bb1ed-fe05-4590-928a-167b6770bfa5",
+            "id": "27",
+            "name": "LastPass password manager",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=lastpass&c=*&locale=*&pf=*&s=*&tp=edge",
+            "visit_count": 0
+         }, {
+            "date_added": "13369140058942650",
+            "date_last_used": "0",
+            "guid": "9ec13751-2068-4363-a89c-c785ac532613",
+            "id": "24",
+            "name": "Booking.com",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.booking.com/index.html?aid=1980379&label=NW21C2EF",
+            "visit_count": 0
+         }, {
+            "date_added": "13369140058942457",
+            "date_last_used": "0",
+            "guid": "8de0ccbe-69bb-4114-9937-5806716dcc52",
+            "id": "23",
+            "name": "Express VPN",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "http://js.redirect.hp.com/jumpstation?bd=expressvpn&c=*&locale=en_us&pf=*&s=*&tp=edge",
+            "visit_count": 0
+         }, {
+            "date_added": "13369140058942240",
+            "date_last_used": "0",
+            "guid": "32b537a5-5e60-43d5-9872-0d40fa23d425",
+            "id": "22",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "http://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
+         }, {
+            "date_added": "13369140058941683",
+            "date_last_used": "0",
+            "guid": "70ab63df-1d05-4f2e-9d6c-e0046bedb1b2",
+            "id": "21",
+            "name": "LastPass password manager",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=lastpass&c=*&locale=*&pf=*&s=*&tp=edge",
+            "visit_count": 0
+         }, {
             "date_added": "13367601718347166",
             "date_last_used": "0",
             "guid": "1cda1deb-06cf-4095-9c38-9dedcf30cb1c",
             "id": "18",
             "name": "https://app.codesignal.com/public-test/zEJyC7gnL9JAsWtGp/FpXNgWMcBvkiyJ",
+            "show_icon": false,
+            "source": "unknown",
             "type": "url",
-            "url": "https://app.codesignal.com/public-test/zEJyC7gnL9JAsWtGp/FpXNgWMcBvkiyJ"
+            "url": "https://app.codesignal.com/public-test/zEJyC7gnL9JAsWtGp/FpXNgWMcBvkiyJ",
+            "visit_count": 0
          }, {
             "date_added": "13368885613905423",
             "date_last_used": "0",
             "guid": "5ee2f03a-cf7a-482d-aeae-7cd7b5eb318b",
             "id": "10",
             "name": "Booking.com",
+            "show_icon": false,
+            "source": "unknown",
             "type": "url",
-            "url": "https://www.booking.com/index.html?aid=1980379&label=NW21C2EF"
+            "url": "https://www.booking.com/index.html?aid=1980379&label=NW21C2EF",
+            "visit_count": 0
          }, {
             "date_added": "13368885613905164",
             "date_last_used": "0",
             "guid": "4839a35c-f863-4acd-a463-e4a6a0dc4412",
             "id": "9",
             "name": "Express VPN",
+            "show_icon": false,
+            "source": "unknown",
             "type": "url",
-            "url": "http://js.redirect.hp.com/jumpstation?bd=expressvpn&c=*&locale=en_us&pf=*&s=*&tp=edge"
+            "url": "http://js.redirect.hp.com/jumpstation?bd=expressvpn&c=*&locale=en_us&pf=*&s=*&tp=edge",
+            "visit_count": 0
          }, {
             "date_added": "13368885613904853",
             "date_last_used": "0",
             "guid": "7d0cefdb-549e-4311-8096-7a229fbd8d04",
             "id": "8",
             "name": "McAfee Security",
+            "show_icon": false,
+            "source": "unknown",
             "type": "url",
-            "url": "http://www.mcafee.com/consumer/v/browserfav/hp.html"
+            "url": "http://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
          }, {
             "date_added": "13368885613904201",
             "date_last_used": "0",
             "guid": "f981c049-02a8-4bcf-9548-52d8b1b9dee4",
             "id": "7",
             "name": "LastPass password manager",
+            "show_icon": false,
+            "source": "unknown",
             "type": "url",
-            "url": "https://js.redirect.hp.com/jumpstation?bd=lastpass&c=*&locale=*&pf=*&s=*&tp=edge"
+            "url": "https://js.redirect.hp.com/jumpstation?bd=lastpass&c=*&locale=*&pf=*&s=*&tp=edge",
+            "visit_count": 0
          } ],
          "date_added": "13368885613497769",
          "date_last_used": "0",
-         "date_modified": "13368886480680499",
+         "date_modified": "13369144147704716",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
-         "name": "Bookmarks bar",
+         "name": "Favorites bar",
+         "source": "unknown",
          "type": "folder"
       },
       "other": {
@@ -58,7 +162,8 @@
          "date_modified": "0",
          "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
          "id": "2",
-         "name": "Other bookmarks",
+         "name": "Other favorites",
+         "source": "unknown",
          "type": "folder"
       },
       "synced": {
@@ -68,7 +173,8 @@
          "date_modified": "0",
          "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
          "id": "3",
-         "name": "Mobile bookmarks",
+         "name": "Mobile favorites",
+         "source": "unknown",
          "type": "folder"
       }
    },

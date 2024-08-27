@@ -42,6 +42,7 @@ dependencies:
   velocity_x: ^4.2.1
   url_launcher: ^6.3.0
   flutter_email_sender: ^6.0.3
+  http: ^1.2.2
 
 dev_dependencies:
   flutter_test:

@@ -7,6 +7,7 @@ file:///C:/Portfolio/lib/globals/app_colors.dart
 file:///C:/Portfolio/lib/globals/app_text_styles.dart
 file:///C:/Portfolio/lib/globals/constants.dart
 file:///C:/Portfolio/lib/helper%20class/helper_class.dart
+file:///C:/Portfolio/lib/helper%20class/send_email.dart
 file:///C:/Portfolio/lib/main.dart
 file:///C:/Portfolio/lib/views/about_me.dart
 file:///C:/Portfolio/lib/views/contact_us.dart
@@ -82,7 +83,6 @@ file:///C:/Users/Ranveer/AppData/Local/Pub/Cache/hosted/pub.dev/crypto-3.0.5/lib
 file:///C:/Users/Ranveer/AppData/Local/Pub/Cache/hosted/pub.dev/crypto-3.0.5/lib/src/sha512.dart
 file:///C:/Users/Ranveer/AppData/Local/Pub/Cache/hosted/pub.dev/crypto-3.0.5/lib/src/sha512_slowsinks.dart
 file:///C:/Users/Ranveer/AppData/Local/Pub/Cache/hosted/pub.dev/crypto-3.0.5/lib/src/utils.dart
-file:///C:/Users/Ranveer/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_email_sender-6.0.3/lib/flutter_email_sender.dart
 file:///C:/Users/Ranveer/AppData/Local/Pub/Cache/hosted/pub.dev/google_fonts-6.2.1/lib/google_fonts.dart
 file:///C:/Users/Ranveer/AppData/Local/Pub/Cache/hosted/pub.dev/google_fonts-6.2.1/lib/src/asset_manifest.dart
 file:///C:/Users/Ranveer/AppData/Local/Pub/Cache/hosted/pub.dev/google_fonts-6.2.1/lib/src/file_io.dart

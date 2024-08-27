@@ -30,13 +30,13 @@ class MyPortfolio extends StatelessWidget {
         "A calculator with basic functions was built using Flutter, showcasing a clean user interface and smooth functionality. The app efficiently handles essential operations like addition, subtraction, multiplication, remainder and division. This project highlights the ability to create simple yet effective applications with Flutter’s framework, emphasizing ease of use and responsiveness.";
 
     String liveLink1 = "";
-    String githubLink1 = "";
+    String githubLink1 = "https://github.com/abhi123nith/chat_app";
 
-    String liveLink2 = "";
-    String githubLink2 = "";
+    String liveLink2 = "https://godaraportfolio.netlify.app/";
+    String githubLink2 = "https://github.com/abhi123nith/Portfolio";
 
-    String liveLink3 = "";
-    String githubLink3 = "";
+    String liveLink3 = "https://godaracalculator.netlify.app/";
+    String githubLink3 = "https://github.com/abhi123nith/Calculator_app";
 
     return HelperClass(
       mobile: Column(
